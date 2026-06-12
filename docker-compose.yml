@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password123
+      POSTGRES_DB: delivery_db
+    ports:
+      - "5432:5432"
+    volumes:
+      # Esto ejecuta los scripts SQL automáticamente al levantar el contenedor por primera vez
+      - ./etapa_1_postgresql:/docker-entrypoint-initdb.d
+
+  mongodb:
+    image: mongo:6.0
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password123
+    ports:
+      - "27017:27017"
+
+  redis:
+    image: redis:7.0
+    ports:
+      - "6379:6379"

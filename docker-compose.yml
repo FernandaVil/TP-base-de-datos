@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   postgres:
     image: postgres:15
@@ -25,3 +23,13 @@ services:
     image: redis:7.0
     ports:
       - "6379:6379"
+
+  spark:
+    image: jupyter/pyspark-notebook:spark-3.5.0
+    container_name: entorno_spark
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./etapa_3_spark:/home/jovyan/work
+    environment:
+      - JUPYTER_TOKEN=entregatp

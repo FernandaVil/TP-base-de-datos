@@ -1,4 +1,17 @@
--- Tablas independientes
+-- tablas de dominio geográfico (normalización de direcciones)
+CREATE TABLE calle (
+    id_calle SERIAL PRIMARY KEY,
+    nombre VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE direccion (
+    id_direccion SERIAL PRIMARY KEY,
+    id_calle INTEGER REFERENCES calle(id_calle) NOT NULL,
+    altura INTEGER CHECK (altura > 0) NOT NULL,
+    UNIQUE (id_calle, altura) -- ¡Esta es la magia!
+);
+
+-- tablas independientes
 CREATE TABLE usuario (
     id_usuario SERIAL PRIMARY KEY,
     nombre VARCHAR(255) NOT NULL,
@@ -10,7 +23,7 @@ CREATE TABLE usuario (
 CREATE TABLE restaurante (
     id_restaurante SERIAL PRIMARY KEY,
     nombre VARCHAR(255) NOT NULL,
-    direccion VARCHAR(255) NOT NULL,
+    id_direccion INTEGER REFERENCES direccion(id_direccion) NOT NULL,
     categoria VARCHAR(100)
 );
 
@@ -32,7 +45,7 @@ CREATE TABLE promocion (
     CONSTRAINT chk_fechas CHECK (fecha_fin > fecha_inicio)
 );
 
--- Tablas dependientes
+-- tablas dependientes
 
 CREATE TABLE plato (
     id_plato SERIAL PRIMARY KEY,
@@ -51,7 +64,7 @@ CREATE TABLE pedido (
     id_promocion INTEGER REFERENCES promocion(id_promocion),
     fecha_hora_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     total_abonado DECIMAL(10, 2) CHECK (total_abonado >= 0),
-    direccion_entrega VARCHAR(255) NOT NULL
+    id_direccion_entrega INTEGER REFERENCES direccion(id_direccion) NOT NULL
 );
 
 CREATE TABLE detalle_pedido (

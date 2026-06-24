@@ -31,7 +31,7 @@ for i in range(1, NUM_USUARIOS + 1):
     nombre = fake.first_name()
     apellido = fake.last_name()
     nombre_completo = f"{nombre} {apellido}"
-    email = f"{normalizar_email(nombre_completo)}{random.randint(1,99)}@gmail.com"
+    email = f"{normalizar_email(nombre_completo)}{i}@gmail.com"
     # limitamos las fechas de registro para que sean previas a la creación de pedidos
     fecha_reg = fake.date_between(start_date='-2y', end_date='-7m')
     fechas_registro_usuarios[i] = fecha_reg
@@ -163,19 +163,34 @@ for id_pedido in range(1, NUM_PEDIDOS + 1):
     
     # restricción: la fecha de creación debe ser posterior a la fecha de registro del usuario
     fecha_minima_usuario = fechas_registro_usuarios[id_usuario]
-    fecha_creacion = fake.date_time_between(start_date=fecha_minima_usuario, end_date='now')
     
-    # restricción: la promoción aplicada debe estar vigente en la fecha del pedido
-    promos_vigentes = [
-        p_id for p_id, (ini, fin) in intervalos_promociones.items()
-        if ini <= fecha_creacion <= fin
-    ]
-    
-    if promos_vigentes and random.random() < 0.25:
-        id_promocion = random.choice(promos_vigentes)
-    else:
-        id_promocion = 'NULL'
+    # 1. TRAMPA CORREGIDA: Decidimos PRIMERO si va a usar promo (ej. 25% de probabilidad)
+    usar_promo = random.random() < 0.25
+    id_promocion = 'NULL'
+    fecha_creacion = None
+
+    if usar_promo and intervalos_promociones:
+        # Elegimos una promoción cualquiera al azar de nuestro catálogo
+        id_promo_elegida, (ini, fin) = random.choice(list(intervalos_promociones.items()))
         
+        # --- CORRECCIÓN A PRUEBA DE BALAS ---
+        # Si la variable tiene hora, la limpiamos. Si ya es fecha pura, la dejamos igual.
+        f_min = fecha_minima_usuario.date() if hasattr(fecha_minima_usuario, 'date') else fecha_minima_usuario
+        f_ini = ini.date() if hasattr(ini, 'date') else ini
+        f_fin = fin.date() if hasattr(fin, 'date') else fin
+        
+        # Ahora sí, ambas hablan el mismo idioma
+        fecha_inicio_valida = max(f_min, f_ini)
+        
+        if fecha_inicio_valida <= f_fin:
+            # FORZAMOS la fecha para que caiga dentro de la promo
+            fecha_creacion = fake.date_time_between(start_date=fecha_inicio_valida, end_date=f_fin)
+            id_promocion = id_promo_elegida
+            
+    # 2. Si no usó promo (o por mala suerte eligió una promo antiquísima para un usuario nuevo)
+    if fecha_creacion is None:
+        fecha_creacion = fake.date_time_between(start_date=fecha_minima_usuario, end_date='now')
+        id_promocion = 'NULL'
     # restricción logística: si el pedido finaliza entregado, debe poseer repartidor asignado
     # asignamos estado inicial para determinar el alcance logístico del flujo
     es_pedido_reciente = random.random() < 0.10

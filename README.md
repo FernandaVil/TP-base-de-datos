@@ -30,6 +30,7 @@ El análisis masivo de datos (MapReduce) se ejecuta dentro de un contenedor ofic
 Los servicios están expuestos en los siguientes puertos locales con sus respectivas credenciales de acceso:
 
 **PostgreSQL**
+* Host name/address: localhost
 * Puerto: 5432
 * Base de datos: delivery_db
 * Usuario: admin

@@ -24,6 +24,9 @@ El análisis masivo de datos (MapReduce) se ejecuta dentro de un contenedor ofic
 1. Ingresar a la interfaz web navegando a: http://localhost:8888
 2. Introducir el token de acceso (ver sección de credenciales).
 3. Dirigirse a la carpeta work/ y ejecutar secuencialmente el archivo mapreduce_spark.ipynb.
+---
+**Nota técnica para revisión del código fuente**
+Si se prefiere evaluar el notebook de Spark nativamente en Visual Studio Code en lugar de utilizar el navegador, se debe abrir el archivo .ipynb, seleccionar "Cambiar kernel" -> "Servidor Jupyter existente" e ingresar la URL directa: http://localhost:8888/?token=entregatp
 
 ## Accesos y credenciales
 
@@ -48,6 +51,4 @@ Los servicios están expuestos en los siguientes puertos locales con sus respect
 * Para detener los contenedores sin perder la información generada: docker compose stop
 * Para destruir el entorno completo y limpiar los volúmenes: docker compose down -v
 
----
-**Nota técnica para revisión del código fuente**
-Si se prefiere evaluar el notebook de Spark nativamente en Visual Studio Code en lugar de utilizar el navegador, se debe abrir el archivo .ipynb, seleccionar "Cambiar kernel" -> "Servidor Jupyter existente" e ingresar la URL directa: http://localhost:8888/?token=entregatp
+

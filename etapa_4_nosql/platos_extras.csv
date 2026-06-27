@@ -1,0 +1,151 @@
+id_plato,id_restaurante,nombre,descripcion,precio_actual,esta_disponible
+1000,51,Doble Bacon Cheeseburger,Dos medallones cheddar panceta y salsa,9000,True
+1001,51,Hamburguesa Veggie,Medallón de lentejas con lechuga y tomate,9000,True
+1002,51,Papas Fritas con Cheddar,Porción grande para compartir,4500,True
+1003,52,Pizza Margarita,Muzzarella tomate fresco y albahaca,8500,True
+1004,52,Fugazzetta Rellena,Doble masa con extra queso y cebolla,11500,True
+1005,52,Empanada de Carne,Frita cortada a cuchillo,2500,True
+1006,53,Cuarto de Helado,Hasta 3 sabores a elección,4000,True
+1007,53,Kilo de Helado,Hasta 4 sabores a elección,14500,True
+1008,53,Cucurucho Bañado,Doble bocha con baño de chocolate,3000,True
+1009,54,Ensalada Caesar,Pollo grillado crutones parmesano y aderezo,7000,True
+1010,54,Wrap de Pollo,Tortilla integral con vegetales frescos,6000,True
+1011,54,Bowl de Quinoa,Con palta tomate cherry y huevo poché,8500,True
+1012,55,Cuarto de Helado,Hasta 3 sabores a elección,4500,True
+1013,55,Kilo de Helado,Hasta 4 sabores a elección,13500,True
+1014,55,Cucurucho Bañado,Doble bocha con baño de chocolate,3500,True
+1015,56,Roll Salmon Avocado,8 piezas con salmón rosado y palta,13000,True
+1016,56,Nigiri de Salmón,5 piezas de corte grueso,9500,True
+1017,56,Gyozas de Cerdo,Empanaditas al vapor y selladas,7000,True
+1018,57,Roll Salmon Avocado,8 piezas con salmón rosado y palta,12500,True
+1019,57,Nigiri de Salmón,5 piezas de corte grueso,8500,True
+1020,57,Gyozas de Cerdo,Empanaditas al vapor y selladas,7000,True
+1021,58,Ojo de Bife,Corte premium de 400gr punto a elección,18500,True
+1022,58,Choripán Clásico,Puro cerdo con chimichurri casero,4000,True
+1023,58,Provoleta,Fundida con orégano y ají molido,6500,True
+1024,59,Ensalada Caesar,Pollo grillado crutones parmesano y aderezo,8000,True
+1025,59,Wrap de Pollo,Tortilla integral con vegetales frescos,7000,True
+1026,59,Bowl de Quinoa,Con palta tomate cherry y huevo poché,9000,True
+1027,60,Roll Salmon Avocado,8 piezas con salmón rosado y palta,12000,True
+1028,60,Nigiri de Salmón,5 piezas de corte grueso,9000,True
+1029,60,Gyozas de Cerdo,Empanaditas al vapor y selladas,5500,True
+1030,61,Pizza Margarita,Muzzarella tomate fresco y albahaca,8500,True
+1031,61,Fugazzetta Rellena,Doble masa con extra queso y cebolla,10500,True
+1032,61,Empanada de Carne,Frita cortada a cuchillo,2500,True
+1033,62,Ojo de Bife,Corte premium de 400gr punto a elección,19000,True
+1034,62,Choripán Clásico,Puro cerdo con chimichurri casero,4000,True
+1035,62,Provoleta,Fundida con orégano y ají molido,6500,True
+1036,63,Ojo de Bife,Corte premium de 400gr punto a elección,18000,True
+1037,63,Choripán Clásico,Puro cerdo con chimichurri casero,4500,True
+1038,63,Provoleta,Fundida con orégano y ají molido,7500,True
+1039,64,Ojo de Bife,Corte premium de 400gr punto a elección,18000,True
+1040,64,Choripán Clásico,Puro cerdo con chimichurri casero,4500,True
+1041,64,Provoleta,Fundida con orégano y ají molido,7500,True
+1042,65,Ojo de Bife,Corte premium de 400gr punto a elección,18000,True
+1043,65,Choripán Clásico,Puro cerdo con chimichurri casero,4000,True
+1044,65,Provoleta,Fundida con orégano y ají molido,7500,True
+1045,66,Doble Bacon Cheeseburger,Dos medallones cheddar panceta y salsa,10000,True
+1046,66,Hamburguesa Veggie,Medallón de lentejas con lechuga y tomate,8000,True
+1047,66,Papas Fritas con Cheddar,Porción grande para compartir,4000,True
+1048,67,Ojo de Bife,Corte premium de 400gr punto a elección,18500,True
+1049,67,Choripán Clásico,Puro cerdo con chimichurri casero,4500,True
+1050,67,Provoleta,Fundida con orégano y ají molido,7500,True
+1051,68,Roll Salmon Avocado,8 piezas con salmón rosado y palta,13000,True
+1052,68,Nigiri de Salmón,5 piezas de corte grueso,9000,True
+1053,68,Gyozas de Cerdo,Empanaditas al vapor y selladas,6500,True
+1054,69,Ojo de Bife,Corte premium de 400gr punto a elección,18000,True
+1055,69,Choripán Clásico,Puro cerdo con chimichurri casero,4500,True
+1056,69,Provoleta,Fundida con orégano y ají molido,7500,True
+1057,70,Pizza Margarita,Muzzarella tomate fresco y albahaca,8000,True
+1058,70,Fugazzetta Rellena,Doble masa con extra queso y cebolla,11000,True
+1059,70,Empanada de Carne,Frita cortada a cuchillo,1000,True
+1060,71,Pizza Margarita,Muzzarella tomate fresco y albahaca,8500,True
+1061,71,Fugazzetta Rellena,Doble masa con extra queso y cebolla,11500,True
+1062,71,Empanada de Carne,Frita cortada a cuchillo,1500,True
+1063,72,Cuarto de Helado,Hasta 3 sabores a elección,5500,True
+1064,72,Kilo de Helado,Hasta 4 sabores a elección,13500,True
+1065,72,Cucurucho Bañado,Doble bocha con baño de chocolate,4000,True
+1066,73,Cuarto de Helado,Hasta 3 sabores a elección,4000,True
+1067,73,Kilo de Helado,Hasta 4 sabores a elección,14500,True
+1068,73,Cucurucho Bañado,Doble bocha con baño de chocolate,3500,True
+1069,74,Cuarto de Helado,Hasta 3 sabores a elección,4500,True
+1070,74,Kilo de Helado,Hasta 4 sabores a elección,14500,True
+1071,74,Cucurucho Bañado,Doble bocha con baño de chocolate,3000,True
+1072,75,Ensalada Caesar,Pollo grillado crutones parmesano y aderezo,7500,True
+1073,75,Wrap de Pollo,Tortilla integral con vegetales frescos,6500,True
+1074,75,Bowl de Quinoa,Con palta tomate cherry y huevo poché,8500,True
+1075,76,Roll Salmon Avocado,8 piezas con salmón rosado y palta,11500,True
+1076,76,Nigiri de Salmón,5 piezas de corte grueso,9500,True
+1077,76,Gyozas de Cerdo,Empanaditas al vapor y selladas,5500,True
+1078,77,Doble Bacon Cheeseburger,Dos medallones cheddar panceta y salsa,10500,True
+1079,77,Hamburguesa Veggie,Medallón de lentejas con lechuga y tomate,9000,True
+1080,77,Papas Fritas con Cheddar,Porción grande para compartir,5000,True
+1081,78,Ojo de Bife,Corte premium de 400gr punto a elección,18000,True
+1082,78,Choripán Clásico,Puro cerdo con chimichurri casero,3500,True
+1083,78,Provoleta,Fundida con orégano y ají molido,6500,True
+1084,79,Ojo de Bife,Corte premium de 400gr punto a elección,18000,True
+1085,79,Choripán Clásico,Puro cerdo con chimichurri casero,4500,True
+1086,79,Provoleta,Fundida con orégano y ají molido,7000,True
+1087,80,Doble Bacon Cheeseburger,Dos medallones cheddar panceta y salsa,10000,True
+1088,80,Hamburguesa Veggie,Medallón de lentejas con lechuga y tomate,8500,True
+1089,80,Papas Fritas con Cheddar,Porción grande para compartir,5000,True
+1090,81,Ensalada Caesar,Pollo grillado crutones parmesano y aderezo,7000,True
+1091,81,Wrap de Pollo,Tortilla integral con vegetales frescos,7000,True
+1092,81,Bowl de Quinoa,Con palta tomate cherry y huevo poché,8000,True
+1093,82,Doble Bacon Cheeseburger,Dos medallones cheddar panceta y salsa,10000,True
+1094,82,Hamburguesa Veggie,Medallón de lentejas con lechuga y tomate,8500,True
+1095,82,Papas Fritas con Cheddar,Porción grande para compartir,4500,True
+1096,83,Pizza Margarita,Muzzarella tomate fresco y albahaca,8500,True
+1097,83,Fugazzetta Rellena,Doble masa con extra queso y cebolla,11000,True
+1098,83,Empanada de Carne,Frita cortada a cuchillo,1500,True
+1099,84,Cuarto de Helado,Hasta 3 sabores a elección,4500,True
+1100,84,Kilo de Helado,Hasta 4 sabores a elección,14500,True
+1101,84,Cucurucho Bañado,Doble bocha con baño de chocolate,4000,True
+1102,85,Ojo de Bife,Corte premium de 400gr punto a elección,18500,True
+1103,85,Choripán Clásico,Puro cerdo con chimichurri casero,5000,True
+1104,85,Provoleta,Fundida con orégano y ají molido,7000,True
+1105,86,Roll Salmon Avocado,8 piezas con salmón rosado y palta,11500,True
+1106,86,Nigiri de Salmón,5 piezas de corte grueso,8500,True
+1107,86,Gyozas de Cerdo,Empanaditas al vapor y selladas,6500,True
+1108,87,Ojo de Bife,Corte premium de 400gr punto a elección,17500,True
+1109,87,Choripán Clásico,Puro cerdo con chimichurri casero,3500,True
+1110,87,Provoleta,Fundida con orégano y ají molido,7000,True
+1111,88,Ojo de Bife,Corte premium de 400gr punto a elección,18500,True
+1112,88,Choripán Clásico,Puro cerdo con chimichurri casero,3500,True
+1113,88,Provoleta,Fundida con orégano y ají molido,6500,True
+1114,89,Ojo de Bife,Corte premium de 400gr punto a elección,19000,True
+1115,89,Choripán Clásico,Puro cerdo con chimichurri casero,3500,True
+1116,89,Provoleta,Fundida con orégano y ají molido,6500,True
+1117,90,Roll Salmon Avocado,8 piezas con salmón rosado y palta,12000,True
+1118,90,Nigiri de Salmón,5 piezas de corte grueso,9000,True
+1119,90,Gyozas de Cerdo,Empanaditas al vapor y selladas,6000,True
+1120,91,Ojo de Bife,Corte premium de 400gr punto a elección,18000,True
+1121,91,Choripán Clásico,Puro cerdo con chimichurri casero,5000,True
+1122,91,Provoleta,Fundida con orégano y ají molido,7000,True
+1123,92,Ensalada Caesar,Pollo grillado crutones parmesano y aderezo,8500,True
+1124,92,Wrap de Pollo,Tortilla integral con vegetales frescos,7500,True
+1125,92,Bowl de Quinoa,Con palta tomate cherry y huevo poché,8500,True
+1126,93,Roll Salmon Avocado,8 piezas con salmón rosado y palta,12000,True
+1127,93,Nigiri de Salmón,5 piezas de corte grueso,8500,True
+1128,93,Gyozas de Cerdo,Empanaditas al vapor y selladas,7000,True
+1129,94,Roll Salmon Avocado,8 piezas con salmón rosado y palta,11500,True
+1130,94,Nigiri de Salmón,5 piezas de corte grueso,9000,True
+1131,94,Gyozas de Cerdo,Empanaditas al vapor y selladas,6000,True
+1132,95,Ensalada Caesar,Pollo grillado crutones parmesano y aderezo,8000,True
+1133,95,Wrap de Pollo,Tortilla integral con vegetales frescos,6000,True
+1134,95,Bowl de Quinoa,Con palta tomate cherry y huevo poché,8000,True
+1135,96,Cuarto de Helado,Hasta 3 sabores a elección,5000,True
+1136,96,Kilo de Helado,Hasta 4 sabores a elección,13500,True
+1137,96,Cucurucho Bañado,Doble bocha con baño de chocolate,3000,True
+1138,97,Pizza Margarita,Muzzarella tomate fresco y albahaca,7500,True
+1139,97,Fugazzetta Rellena,Doble masa con extra queso y cebolla,11000,True
+1140,97,Empanada de Carne,Frita cortada a cuchillo,1000,True
+1141,98,Ensalada Caesar,Pollo grillado crutones parmesano y aderezo,7500,True
+1142,98,Wrap de Pollo,Tortilla integral con vegetales frescos,6000,True
+1143,98,Bowl de Quinoa,Con palta tomate cherry y huevo poché,8000,True
+1144,99,Cuarto de Helado,Hasta 3 sabores a elección,4500,True
+1145,99,Kilo de Helado,Hasta 4 sabores a elección,15000,True
+1146,99,Cucurucho Bañado,Doble bocha con baño de chocolate,3500,True
+1147,100,Ojo de Bife,Corte premium de 400gr punto a elección,18500,True
+1148,100,Choripán Clásico,Puro cerdo con chimichurri casero,3500,True
+1149,100,Provoleta,Fundida con orégano y ají molido,6000,True

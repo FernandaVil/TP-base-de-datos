@@ -1,0 +1,51 @@
+id_restaurante,nombre,id_direccion,categoria
+51,Hamburguesas Pereyra,3004,hamburguesería
+52,Pizzería Molina,1134,pizzería
+53,Los helados de Moreno,3720,heladería
+54,Delivery veggie Diaz,3562,comida sana
+55,Lo de Gonzalez,3133,heladería
+56,Izakaya Caceres,2578,sushi
+57,Izakaya Flores,3744,sushi
+58,Parrilla Rios,1249,parrilla
+59,Delivery veggie Farias,455,comida sana
+60,Sushi Gutierrez,3579,sushi
+61,La esquina de Maidana,2,pizzería
+62,El asador de Fernandez,7,parrilla
+63,La esquina de Diaz,2874,parrilla
+64,Lo de Perez,3273,parrilla
+65,Parrilla Diaz,370,parrilla
+66,Lo de Rios,303,hamburguesería
+67,La esquina de Benitez,1487,parrilla
+68,El rey de Ramos,2472,sushi
+69,El asador de Martinez,2920,parrilla
+70,La mejor pizza de Lopez,3384,pizzería
+71,Pizzería Molina,2421,pizzería
+72,El rey de Diaz,1971,heladería
+73,Los helados de Acuña,585,heladería
+74,La esquina de Rodriguez,2331,heladería
+75,La huerta de Ramirez,1570,comida sana
+76,El rey de Alvarez,197,sushi
+77,La esquina de Ramirez,2907,hamburguesería
+78,Carnes Luna,582,parrilla
+79,La esquina de Cabrera,2053,parrilla
+80,Burger Romero,560,hamburguesería
+81,Delivery veggie Lopez,2604,comida sana
+82,Lo de Luna,2902,hamburguesería
+83,Pizzas Ramirez,2971,pizzería
+84,Heladería Lopez,1973,heladería
+85,Parrilla Cruz,2644,parrilla
+86,Sushi Rodriguez,2018,sushi
+87,El asador de Romero,657,parrilla
+88,Parrilla Gonzalez,212,parrilla
+89,El rey de Roldan,3418,parrilla
+90,Lo de Dominguez,345,sushi
+91,Lo de Castillo,3358,parrilla
+92,El bodegón de Perez,3871,comida sana
+93,Izakaya Ramirez,1966,sushi
+94,La esquina de Villalba,2440,sushi
+95,La esquina de Leiva,3016,comida sana
+96,Heladería Rodriguez,1518,heladería
+97,La mejor pizza de Gomez,115,pizzería
+98,Lo de Fernandez,16,comida sana
+99,Heladería Ledesma,2406,heladería
+100,Lo de Ramos,2068,parrilla

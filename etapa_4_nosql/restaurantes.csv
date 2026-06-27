@@ -1,0 +1,51 @@
+id_restaurante,nombre,id_direccion,categoria
+1,La Mezzetta,1,pizzería
+2,Guerrín,2,pizzería
+3,El Cuartito,3,pizzería
+4,Kentucky,4,pizzería
+5,Burger Joint,5,hamburguesería
+6,The Food Truck Store,6,hamburguesería
+7,Pérez H,7,hamburguesería
+8,Sushi Club,8,sushi
+9,Fabric Sushi,9,sushi
+10,Dashi,10,sushi
+11,Sacro,11,comida sana
+12,Artemisia,12,comida sana
+13,El Club de la Milanesa,13,parrilla
+14,Don Julio,14,parrilla
+15,La Cabrera,15,parrilla
+16,Rapa Nui,16,heladería
+17,Lucciano's,17,heladería
+18,La esquina de Romero,18,heladería
+19,Los helados de Fernandez,19,heladería
+20,Izakaya Gimenez,20,sushi
+21,Delivery veggie Acosta,21,comida sana
+22,Delivery veggie Gonzalez,22,comida sana
+23,Parrilla Ramirez,23,parrilla
+24,Los helados de Toledo,24,heladería
+25,El bodegón de Bravo,25,pizzería
+26,Pizzería Suarez,26,pizzería
+27,Pizzas Sosa,27,pizzería
+28,Izakaya Blanco,28,sushi
+29,Carnes Moyano,29,parrilla
+30,El asador de Diaz,30,parrilla
+31,El asador de Silva,31,parrilla
+32,Parrilla Aguirre,32,parrilla
+33,Sushi Cabrera,33,sushi
+34,El asador de Moreno,34,parrilla
+35,Carnes Arias,35,parrilla
+36,Pizzas Sanchez,36,pizzería
+37,La esquina de Moreno,37,comida sana
+38,Lo de Martinez,38,sushi
+39,El rey de Garcia,39,pizzería
+40,El rey de Cabrera,40,hamburguesería
+41,La mejor pizza de Rios,41,pizzería
+42,El rey de Fernandez,42,pizzería
+43,El rey de Gutierrez,43,pizzería
+44,El rey de Correa,44,parrilla
+45,El rey de Martinez,45,comida sana
+46,La esquina de Garcia,46,sushi
+47,Lo de Rodriguez,47,hamburguesería
+48,Lo de Soria,48,parrilla
+49,Heladería Rodriguez,49,heladería
+50,Delivery veggie Cardozo,50,comida sana

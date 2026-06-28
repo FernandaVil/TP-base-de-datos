@@ -1,6 +1,6 @@
---Devuelve los 5 restaurantes que demoran menos tiempo en ir
---desde que el pedido esta en preparacion hasta que el pedido
---esta en camino
+-- Obtiene el top 5 de restaurantes con el menor tiempo promedio de preparación.
+-- El tiempo (en minutos) se calcula como la diferencia entre el estado 'en preparación' 
+-- y el cambio del pedido al estado 'en_camino'.
 
 WITH tiempos_de_preparacion AS (
     SELECT hs.id_historial, hs.id_pedido,
@@ -23,3 +23,26 @@ JOIN restaurante r ON t.id_restaurante = r.id_restaurante
 GROUP BY t.id_restaurante, r.nombre
 ORDER BY prom_tiempos_preparacion ASC
 LIMIT 5;
+
+
+-- Ranking top 3 de los clientes que más han gastado según 
+-- categoría de platos.
+
+WITH consumo_total AS(
+	SELECT u.id_usuario, u.nombre, r.categoria, SUM(pe.total_abonado) AS total_por_cat
+	FROM restaurante r
+		JOIN pedido pe
+		ON r.id_restaurante = pe.id_restaurante
+		JOIN usuario u
+		ON pe.id_usuario = u.id_usuario
+	GROUP BY u.id_usuario, r.categoria
+	ORDER BY u.id_usuario
+)
+SELECT t.*	
+FROM (
+	SELECT ct.*,
+	RANK() OVER(PARTITION BY categoria ORDER BY total_por_cat DESC) ranking
+	FROM consumo_total ct
+	) t
+WHERE t.ranking <= 3
+ORDER BY t.categoria, t.ranking ASC

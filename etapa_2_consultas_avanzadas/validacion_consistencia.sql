@@ -109,23 +109,29 @@ WHERE pe.id_repartidor IS NULL
 -- De 'en_preparacion' solo a 'en_camino' o 'cancelado'.
 -- De 'en_camino' solo a 'entregado' o 'cancelado'.
 -- ===============================================================================================================
-WITH ord_estado AS(
-	SELECT h.*, 
-		CASE 
-			WHEN estado = 'creado' THEN 1
-			WHEN estado = 'en_preparacion' THEN 2
-			WHEN estado = 'en_camino' THEN 3
-			WHEN estado = 'entregado' THEN 4
-			WHEN estado = 'cancelado' THEN 5
-		END AS estado_num
-	FROM historial_estado_pedido h
+WITH transiciones AS (
+    SELECT 
+        id_pedido,
+        id_historial,
+        estado AS estado_actual,
+        fecha_hora,
+        LAG(estado) OVER (PARTITION BY id_pedido ORDER BY fecha_hora) AS estado_anterior
+    FROM 
+        historial_estado_pedido
 )
-SELECT t.*
-FROM (
-	SELECT o.*, 
-	LAG (estado_num,1,0) OVER (PARTITION BY id_pedido ORDER BY fecha_hora) anterior
-	FROM ord_estado o
-) t
-WHERE t.anterior = 5 or t.estado_num < t.anterior
-;
+SELECT *
+FROM transiciones
+WHERE NOT (
+    -- 1. El estado inicial obligatorio (no hay estado anterior)
+    (estado_anterior IS NULL AND estado_actual = 'creado') 
+    OR
+    -- 2. Transiciones válidas desde 'creado'
+    (estado_anterior = 'creado' AND estado_actual IN ('en_preparacion', 'cancelado')) 
+    OR
+    -- 3. Transiciones válidas desde 'en_preparacion'
+    (estado_anterior = 'en_preparacion' AND estado_actual IN ('en_camino', 'cancelado')) 
+    OR
+    -- 4. Transiciones válidas desde 'en_camino'
+    (estado_anterior = 'en_camino' AND estado_actual IN ('entregado', 'cancelado'))
+);
 -- OK

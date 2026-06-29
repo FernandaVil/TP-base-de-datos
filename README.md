@@ -28,6 +28,12 @@ El análisis masivo de datos (MapReduce) se ejecuta dentro de un contenedor ofic
 **Nota técnica para revisión del código fuente**
 Si se prefiere evaluar el notebook de Spark nativamente en Visual Studio Code en lugar de utilizar el navegador, se debe abrir el archivo .ipynb, seleccionar "Cambiar kernel" -> "Servidor Jupyter existente" e ingresar la URL directa: http://localhost:8888/?token=entregatp
 
+### 4. Bases de datos NoSQL (etapa 4: MongoDB y Redis)
+Los archivos de ejecución para esta etapa se encuentran en la carpeta `etapa_4_nosql/`.
+
+1. **Redis:** ejecutar el script de Python dedicado a Redis para inicializar las estructuras en memoria y simular la lectura o actualización de los estados.
+2. **MongoDB:** ejecutar el script de Python correspondiente para leer los datos exportados de PostgreSQL, transformarlos y poblar las colecciones en la base de datos documental.
+
 ## Accesos y credenciales
 
 Los servicios están expuestos en los siguientes puertos locales con sus respectivas credenciales de acceso:

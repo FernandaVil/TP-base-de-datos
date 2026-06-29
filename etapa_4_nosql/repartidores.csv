@@ -1,0 +1,201 @@
+id_repartidor,Nombre,Telefono,Transporte,Estado
+1,Joaquin Romero,+54 9 3283 5523,moto,activo
+2,Malena Rodriguez,+54 15 2826 7930,bicicleta,activo
+3,Lourdes Romero,+54 15 2203 2182,bicicleta,activo
+4,Victoria Gimenez,+54 15 2222 9404,moto,activo
+5,Mora Alvarez,+54 15 2270 2838,moto,activo
+6,Benjamin Ezequiel Martin,+54 15 2955 9114,moto,activo
+7,Lucas Ezequiel Vargas,+54 15 2100 1125,bicicleta,activo
+8,Julian Vega,+54 9 3867 0921,moto,activo
+9,Guadalupe Lopez,+54 15 2451 0331,bicicleta,activo
+10,Guadalupe Flores,+54 9 3803 1034,moto,activo
+11,Gonzalo Rodriguez,+54 15 2266 5177,moto,activo
+12,Juan Gabriel Quiroga,+54 9 3143 4376,moto,activo
+13,Julieta Rodriguez,+54 15 2519 0253,moto,activo
+14,Gino Garcia,+54 15 2627 8450,bicicleta,activo
+15,Luciana Rodriguez,+54 9 3703 8737,moto,activo
+16,Juan Pablo Gutierrez,+54 15 2694 9314,bicicleta,activo
+17,Nicolas Villalba,+54 15 2478 6423,bicicleta,activo
+18,Gabriel Vazquez,+54 15 2253 4240,moto,activo
+19,Emma Cabrera,+54 9 3378 1803,moto,activo
+20,Bautista Benjamin Olivera,+54 15 2508 9249,moto,activo
+21,Alvaro Sosa,+54 15 2598 1122,bicicleta,activo
+22,Martina Farias,+54 15 2980 9286,bicicleta,activo
+23,Gabriel Herrera,+54 9 3509 6323,bicicleta,activo
+24,Juana Martinez,+54 9 3244 9231,bicicleta,activo
+25,Thiago Ezequiel Diaz,+54 15 2570 7353,bicicleta,activo
+26,Lautaro Nahuel Blanco,+54 15 2835 9756,moto,activo
+27,Lucas Flores,+54 15 2171 3419,moto,activo
+28,Lautaro Fernandez,+54 15 2251 9730,moto,activo
+29,Olivia Miranda,+54 9 3773 8365,bicicleta,activo
+30,Benjamin Sanchez,+54 15 2152 7523,moto,activo
+31,Martina Sanchez,+54 9 3536 8569,bicicleta,activo
+32,Luca Fernandez,+54 9 3827 3298,bicicleta,activo
+33,Valentin Pereyra,+54 15 2676 1750,moto,activo
+34,Tomàs Martinez,+54 15 2795 6775,bicicleta,activo
+35,Felipe Rios,+54 9 3549 1095,moto,activo
+36,Thiago Benjamin Torres,+54 15 2248 9479,bicicleta,activo
+37,Guillermina Rodriguez,+54 9 3299 0002,bicicleta,activo
+38,Lautaro Godoy,+54 9 3987 4792,bicicleta,activo
+39,Florencia Moreno,+54 9 3206 0493,moto,activo
+40,Emilia Sanchez,+54 15 2931 1853,moto,activo
+41,Santino Gabriel Silva,+54 15 2934 2162,moto,activo
+42,Camila Romero,+54 15 2446 8682,moto,activo
+43,Tomas Gutierrez,+54 9 3396 7051,moto,activo
+44,Mateo Benjamin Ramirez,+54 15 2775 4299,moto,activo
+45,Luciana Luna,+54 9 3899 7523,moto,activo
+46,Ciro Benjamin Ramirez,+54 15 2622 3992,moto,activo
+47,Emma Sosa,+54 9 3534 9811,moto,activo
+48,Mateo Martin,+54 15 2320 5443,moto,activo
+49,Tiziano Diaz,+54 15 2285 9843,moto,activo
+50,Alma Perez,+54 15 2402 6405,moto,activo
+51,Matilda Fernandez,+54 9 3804 4328,moto,activo
+52,Santiago Castro,+54 9 3861 2943,bicicleta,activo
+53,Candela Lopez,+54 15 2960 8258,bicicleta,activo
+54,Santiago Gonzalez,+54 9 3562 2762,bicicleta,activo
+55,Valentino Chavez,+54 15 2688 1137,moto,activo
+56,Fausto Ojeda,+54 9 3431 2877,bicicleta,activo
+57,Juan Ignacio Lopez,+54 9 3428 0624,moto,activo
+58,Delfina Fernandez,+54 15 2524 7066,bicicleta,activo
+59,Santiago Nicolas Ponce,+54 15 2659 4086,moto,activo
+60,Benjamin Cabrera,+54 9 3511 7225,bicicleta,activo
+61,Thiago Benjamin Diaz,+54 15 2212 9333,moto,activo
+62,Delfina Lopez,+54 9 3921 5433,bicicleta,activo
+63,Sofía Bustos,+54 9 3714 8701,bicicleta,activo
+64,Bautista Benjamin Arias,+54 15 2322 3849,moto,activo
+65,Bautista Vargas,+54 15 2168 5091,moto,activo
+66,Maria Emilia Garcia,+54 15 2929 9673,bicicleta,activo
+67,Victoria Gonzalez,+54 15 2944 9515,moto,activo
+68,Guadalupe Gonzalez,+54 15 2566 0854,bicicleta,activo
+69,Maximo Ramirez,+54 9 3393 6648,bicicleta,activo
+70,Luna Romero,+54 9 3429 4952,moto,activo
+71,Josefina Sanchez,+54 15 2425 3056,moto,activo
+72,Genaro Fernandez,+54 15 2429 6665,bicicleta,activo
+73,Máximo Morales,+54 15 2834 9019,moto,activo
+74,Luana Gomez,+54 15 2200 9830,bicicleta,activo
+75,Martina Coronel,+54 15 2887 7817,moto,activo
+76,Lucía  Martinez,+54 15 2462 7269,bicicleta,activo
+77,Martín Pereyra,+54 15 2610 7294,moto,activo
+78,Lautaro Nicolas Peralta,+54 9 3424 0011,moto,activo
+79,Luca Coronel,+54 9 3434 9673,bicicleta,activo
+80,Sara Acosta,+54 9 3758 4271,moto,activo
+81,Thiago Valentin Correa,+54 9 3640 7114,moto,activo
+82,Morena Guzman,+54 9 3433 3039,moto,activo
+83,Ramiro Cabrera,+54 15 2931 3206,bicicleta,activo
+84,Thiago Agustin Lopez,+54 15 2812 8560,bicicleta,activo
+85,Priscila Sanchez,+54 9 3354 4914,moto,activo
+86,Juliana Sosa,+54 15 2663 9028,moto,activo
+87,Rafael Romero,+54 15 2518 9288,bicicleta,activo
+88,Juan Martin Benitez,+54 15 2717 8918,bicicleta,activo
+89,Martina Rodriguez,+54 15 2833 0710,moto,activo
+90,Salvador Rodriguez,+54 9 3299 9627,moto,activo
+91,Delfina Rodriguez,+54 15 2900 1921,bicicleta,activo
+92,Ignacio Lopez,+54 15 2863 8525,bicicleta,activo
+93,Francesca Gonzalez,+54 15 2837 8158,bicicleta,activo
+94,Tiziano Rojas,+54 15 2212 0143,bicicleta,activo
+95,Sebastian Herrera,+54 15 2962 4402,moto,activo
+96,Agustín Alvarez,+54 15 2478 1400,moto,activo
+97,Mia Valentina Acosta,+54 15 2922 0681,moto,activo
+98,Valentin Rojas,+54 15 2840 1595,bicicleta,activo
+99,Fausto Lopez,+54 9 3601 7916,moto,activo
+100,Juan Bautista Juarez,+54 9 3404 1181,moto,activo
+101,Ezequiel Aguirre,+54 9 3183 4811,moto,activo
+102,Agustina Diaz,+54 15 2127 3540,bicicleta,activo
+103,Joaquin Lopez,+54 15 2895 1626,bicicleta,activo
+104,Fausto Soto,+54 9 3315 9479,moto,activo
+105,Tomas Benjamin Leiva,+54 9 3547 4523,moto,activo
+106,Josefina Garcia,+54 9 3459 7665,moto,activo
+107,Camila Valdez,+54 15 2867 5321,moto,activo
+108,Thiago Nicolas Torres,+54 9 3639 5845,bicicleta,activo
+109,Juana Fernandez,+54 15 2320 2558,moto,activo
+110,Agustin Ortiz,+54 9 3901 2257,bicicleta,activo
+111,Joaquín Luna,+54 9 3929 3957,moto,activo
+112,Violeta Gutierrez,+54 9 3830 2950,bicicleta,activo
+113,Mia Valentina Roldan,+54 15 2921 7728,bicicleta,activo
+114,Santiago Nicolas Leiva,+54 9 3190 1581,moto,activo
+115,Bruno Rodriguez,+54 15 2281 4156,moto,activo
+116,Francisco Torres,+54 9 3401 2631,bicicleta,activo
+117,Rosario Martinez,+54 15 2478 9265,moto,activo
+118,Ian Benjamin Martinez,+54 9 3871 7660,bicicleta,activo
+119,Nicolas Godoy,+54 15 2174 4466,bicicleta,activo
+120,Valentino Bravo,+54 15 2735 0953,moto,activo
+121,Maria Paz Fernandez,+54 15 2410 3638,moto,activo
+122,Ciro Juarez,+54 15 2695 8471,bicicleta,activo
+123,Alexander Valdez,+54 9 3321 7645,bicicleta,activo
+124,Thiago Benjamin Sanchez,+54 9 3433 5586,moto,activo
+125,Victoria Romero,+54 15 2198 7479,moto,activo
+126,Geronimo Benitez,+54 9 3548 7857,bicicleta,activo
+127,Emilia Gutierrez,+54 9 3919 6054,bicicleta,activo
+128,Delfina Figueroa,+54 9 3123 5392,moto,activo
+129,Bautista Nuñez,+54 15 2854 1374,bicicleta,activo
+130,Agustina Cruz,+54 9 3826 3582,bicicleta,activo
+131,Camila Silva,+54 9 3421 4950,bicicleta,activo
+132,Julieta Maldonado,+54 9 3542 9563,bicicleta,activo
+133,Sara Martinez,+54 15 2937 3244,bicicleta,activo
+134,Guillermina Fernandez,+54 15 2457 7050,moto,activo
+135,Delfina Romero,+54 9 3504 4402,moto,activo
+136,Augusto Sosa,+54 15 2447 5455,moto,activo
+137,Felipe Farias,+54 15 2953 8550,moto,activo
+138,Valentin Sanchez,+54 15 2945 5858,bicicleta,activo
+139,Sofia Pereyra,+54 9 3680 9664,moto,activo
+140,Josefina Medina,+54 9 3202 6356,bicicleta,activo
+141,Thiago Gabriel Herrera,+54 15 2323 2235,moto,activo
+142,Isabella Ramos,+54 9 3207 9262,bicicleta,activo
+143,Agustín Velazquez,+54 9 3145 4591,bicicleta,activo
+144,Santino Mendez,+54 9 3835 0740,bicicleta,activo
+145,Emilia Morales,+54 9 3185 3580,moto,activo
+146,Valentina Garcia,+54 9 3649 9644,bicicleta,activo
+147,Juan Cruz Sanchez,+54 15 2403 8414,bicicleta,activo
+148,Catalina Sosa,+54 15 2877 4471,bicicleta,activo
+149,Luca Gimenez,+54 9 3865 5835,bicicleta,activo
+150,Sebastian Fernandez,+54 9 3340 4467,moto,activo
+151,Emma Farias,+54 9 3856 3731,moto,activo
+152,Juan Bautista Diaz,+54 15 2746 6710,bicicleta,activo
+153,Juan Manuel Rodriguez,+54 15 2511 1354,moto,activo
+154,Juan Cruz Gutierrez,+54 9 3921 1200,moto,activo
+155,Catalina Gomez,+54 9 3871 0595,bicicleta,activo
+156,Milena Carrizo,+54 9 3795 0588,bicicleta,activo
+157,Camila Molina,+54 9 3932 2390,moto,activo
+158,Olivia Bravo,+54 9 3289 2088,bicicleta,activo
+159,Simon Perez,+54 15 2814 3827,bicicleta,activo
+160,Agostina Peralta,+54 15 2636 3005,bicicleta,activo
+161,Joaquin Perez,+54 9 3987 5334,bicicleta,activo
+162,Valentina Gonzalez,+54 9 3470 7336,bicicleta,activo
+163,Candela Ferreyra,+54 15 2867 8808,bicicleta,activo
+164,Josefina Navarro,+54 9 3574 2805,moto,activo
+165,Mateo Gonzalez,+54 9 3713 3188,moto,activo
+166,Sofía Villalba,+54 9 3896 5447,bicicleta,activo
+167,Benjamin Ledesma,+54 9 3269 9661,moto,activo
+168,Thiago Valentin Lopez,+54 15 2216 1651,bicicleta,activo
+169,Francisco Moyano,+54 9 3432 7384,bicicleta,activo
+170,Paulina Peralta,+54 15 2951 0036,moto,activo
+171,Jazmin Lopez,+54 15 2965 8954,bicicleta,activo
+172,Valentino Perez,+54 15 2402 3134,moto,activo
+173,Benicio Vazquez,+54 15 2644 4236,moto,activo
+174,Mia Valentina Sanchez,+54 15 2817 3479,moto,activo
+175,Francesca Hernandez,+54 15 2148 1633,bicicleta,activo
+176,Thiago Nuñez,+54 15 2513 8260,moto,activo
+177,Juan David Ortiz,+54 15 2853 5532,bicicleta,activo
+178,Tomàs Sanchez,+54 15 2663 6804,moto,activo
+179,Mia Martinez,+54 15 2870 1691,bicicleta,activo
+180,Milo Flores,+54 15 2557 4978,moto,activo
+181,Maria Luz Medina,+54 15 2221 2352,moto,activo
+182,Ian Sosa,+54 9 3291 0663,moto,activo
+183,Martina Rodriguez,+54 15 2245 8300,moto,activo
+184,Sofia Bustos,+54 15 2635 9247,bicicleta,activo
+185,Benjamin Diaz,+54 9 3924 6172,bicicleta,activo
+186,Mateo Leiva,+54 15 2320 4812,moto,activo
+187,Catalina Torres,+54 15 2718 1553,moto,activo
+188,Joaquin Martin,+54 9 3140 1195,moto,activo
+189,Nahiara Moyano,+54 9 3354 6132,moto,activo
+190,Isabella Morales,+54 15 2333 7178,moto,activo
+191,Dylan Medina,+54 9 3924 9884,moto,activo
+192,Juan Ignacio Aguirre,+54 15 2316 3177,moto,activo
+193,Isabella Luna,+54 9 3156 8502,moto,activo
+194,Thiago Moreno,+54 15 2849 4132,moto,activo
+195,Isabella Alvarez,+54 9 3599 6636,moto,activo
+196,Sofía Rodriguez,+54 9 3827 5944,moto,activo
+197,Amparo Moreno,+54 15 2620 0740,bicicleta,activo
+198,Franco Leiva,+54 9 3989 5992,moto,activo
+199,Santino Acosta,+54 9 3366 5588,moto,activo
+200,Lorenzo Herrera,+54 15 2100 1069,moto,activo

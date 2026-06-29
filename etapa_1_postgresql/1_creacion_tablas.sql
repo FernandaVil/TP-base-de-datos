@@ -24,7 +24,7 @@ CREATE TABLE restaurante (
     id_restaurante SERIAL PRIMARY KEY,
     nombre VARCHAR(255) NOT NULL,
     id_direccion INTEGER REFERENCES direccion(id_direccion) NOT NULL,
-    categoria VARCHAR(100)
+    categoria VARCHAR(100) CHECK (categoria IN ('pizzería', 'hamburguesería', 'sushi', 'comida sana', 'parrilla', 'heladería'))
 );
 
 CREATE TABLE repartidor (

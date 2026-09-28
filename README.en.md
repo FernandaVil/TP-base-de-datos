@@ -4,7 +4,7 @@
 
 This collaboratively built project simulates the complete data infrastructure of a food delivery application. Through a Docker-orchestrated environment, we integrated relational databases for secure transactions, distributed processing for massive analytics, and NoSQL databases for real-time state management.
 
-> 🇪🇸 [Versión en español](./README.es.md)
+> 🇪🇸 [Versión en español](./README.md)
 > 
 > **Development team:** Developed alongside Richard Pavez and James Tuesta as part of the database systems curriculum for the data science degree (UBA).
 

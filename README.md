@@ -8,6 +8,8 @@ Este proyecto, desarrollado de forma colaborativa, simula la infraestructura de 
 > 
 > **Equipo de desarrollo:** Desarrollado junto a Richard Pavez y James Tuesta como parte de la materia optativa de Bases de Datos de la Licenciatura en Ciencia de Datos (UBA).
 
+> 📄 **Documentación detallada:** Para revisar el modelado de datos completo, los diagramas y las decisiones de diseño de la infraestructura, podés consultar el [informe técnico final](./informe/InformeFinal.pdf).
+
 ## Arquitectura y tecnologías
 Para resolver los distintos cuellos de botella de una aplicación de alto tráfico, dividimos la infraestructura en tres capas:
 * **Capa transaccional (PostgreSQL):** Modelado relacional y scripts DDL para garantizar la integridad de los usuarios, comercios y pagos.

@@ -4,7 +4,7 @@
 
 Este proyecto, desarrollado de forma colaborativa, simula la infraestructura de datos completa de una aplicación de delivery de comida. A través de un entorno orquestado con Docker, integramos bases de datos relacionales para transacciones seguras, procesamiento distribuido para analítica masiva y bases NoSQL para gestión de estados en tiempo real.
 
-> 🇺🇸 [English version](./README.md)
+> 🇺🇸 [English version](./README.en.md)
 > 
 > **Equipo de desarrollo:** Desarrollado junto a Richard Pavez y James Tuesta como parte de la materia optativa de Bases de Datos de la Licenciatura en Ciencia de Datos (UBA).
 
